@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airbnb</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!--section-1/header section-->
+    <section class="ml-[30px] mr-[30px]">
+        <!--div-1-->
+        <div class="flex justify-between p-2 items-center">
+            <img src="./image/airbnb-logo.png" alt="" class="h-[80px] w-[140px]">
+
+            <div class="flex gap-7 ml-[210px] text-[17px]">
+                <div class="font-semibold cursor-pointer p-3">Stays</div>
+                <div class="text-[#717171] cursor-pointer hover:bg-slate-100 rounded-full p-3">Experiences</div>
+                <div class="text-[#717171] cursor-pointer hover:bg-slate-100 rounded-full p-3">Online Experiences</div>
+            </div>
+
+            <div class="flex gap-2 items-center">
+                <ul class="text-[15px] font-semibold cursor-pointer hover:bg-slate-100 rounded-full p-3">
+                    <li><a href="#">Airbnb Your Home</a></li>
+                </ul>
+                <img src="./image/internet.png" alt="" class="h-[50px] hover:bg-slate-100 rounded-full p-3">
+                <div class="flex items-center gap-5 border rounded-full p-3 hover:shadow-md cursor-pointer">
+                    <img src="./image/menu.png" alt="" class="h-[25px]">
+                    <img src="./image/user-icon.png" alt="" class="h-[40px]">
+                </div>
+            </div>
+
+        </div>
+        <!--div-2-->
+        <div
+            class="flex border rounded-full p-2 mr-[240px] ml-[225px] items-center text-[14px] shadow-lg justify-between">
+            <div class="hover:bg-slate-100 ml-[20px]">
+                <p>Where</p>
+                <input type="text" placeholder="Search destinations">
+            </div>
+
+            <div class="flex items-center">
+                <div class="h-[30px] w-[1px] bg-[#aaa9a9] mr-4 ml-[70px]"></div>
+                <div>
+                    <p>Check in</p>
+                    <input type="text" name="" id="" placeholder="Add dates">
+                </div>
+                <div class="h-[30px] w-[1px] bg-[#aaa9a9] mr-4 ml-[-50px]"></div>
+                <div>
+                    <p>Check out</p>
+                    <input type="text" name="" id="" placeholder="Add dates">
+                </div>
+                <div class="h-[30px] w-[1px] bg-[#aaa9a9] mr-4 ml-[-50px]"></div>
+                <div>
+                    <p>Who</p>
+                    <input type="text" placeholder="Add guests">
+                </div>
+            </div>
+
+            <div>
+                <img src="./image/search.png" alt="" class="" style="height: 50px;">
+            </div>
+        </div>
+    </section>
+
+    <!--line-->
+    <div class="h-[1px] w-full bg-slate-200 mt-6"></div>
+
+    <!--section-2-->
+    <section class="ml-[30px] mr-[30px]">
+        <div class="flex mt-6 justify-between text-[#717171]">
+            <!--category div-->
+            <div class="flex items-center gap-x-12">
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type1.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Earth homes</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type2.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Beachfront</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type3.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Bed & breakfasts</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type4.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Lake</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type5.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Room</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type6.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Desert</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type7.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Ryokans</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type8.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Minsus</p>
+                </div>
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./image/type9.jpeg" alt="" class="h-[25px] w-[25px] mb-1">
+                    <p class="text-[13px]">Camping</p>
+                </div>
+            </div>
+            <!--side button-->
+            <div class="ml-[20px] mt-[7px]">
+                <img src="./image/angle-right.png" alt="" class="h-[30px] border rounded-full p-[8px] cursor-pointer shadow hover:shadow-slate-500 transition-all hover:scale-110 duration-500">
+            </div>
+            <!--filter button-->
+            <div class="flex items-center border rounded-xl gap-2 pr-4 pl-4 ml-4">
+                <img src="./image/settings-sliders.png" alt="" class="h-[15px]">
+                <p class="text-[12px] text-black">Filter</p>
+            </div>
+            <!--display button-->
+            <div class="flex items-center border rounded-xl gap-2 pr-4 pl-4 ml-4">
+                <p class="text-[12px] text-black">Display total before taxes</p>
+                <div class="h-[15px] w-[30px] bg-black rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--section-3-->
+    <section class="mt-[30px] ml-[30px] mr-[30px]">
+        <div class="flex flex-wrap justify-between gap-y-[30px]">
+            <!--box-1-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+
+                <div class="absolute left-3 top-3 bg-white p-[4px] pr-[8px] pl-[8px] rounded-full font-semibold">Guest favourate</div>
+                
+                <img src="./image/img1.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-2-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+                
+                <img src="./image/img2.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-3-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+                
+                <img src="./image/img3.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-4-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+
+                <div class="absolute left-3 top-3 bg-white p-[4px] pr-[8px] pl-[8px] rounded-full font-semibold">Guest favourate</div>
+                
+                <img src="./image/img4.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-5-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+                
+                <img src="./image/img5.webp" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-6-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+
+                <div class="absolute left-3 top-3 bg-white p-[4px] pr-[8px] pl-[8px] rounded-full font-semibold">Guest favourate</div>
+                
+                <img src="./image/img6.webp" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-7-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+                
+                <img src="./image/img7.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+            <!--box-8-->
+            <div  class="h-[400px] w-[290px] flex flex-col relative cursor-pointer">
+                <img src="./image//favorite.png" alt="" class="absolute right-4 top-4">
+                
+                <img src="./image/img8.jpg" alt="" class="object-cover h-[300px] rounded-[20px]" loading="lazy">
+                
+                <div class="flex justify-between mt-2">
+                    <p class="font-bold">Tandi,India</p>
+                    <div class="flex items-center gap-1">
+                        <img src="./image/star.png" alt="" class="h-[15px]">
+                        <p>4.93</p>
+                    </div>
+                </div>
+                <p class="text-[#717171]">14,81 kilometres away</p>
+                <p class="text-[#717171]">12-17 Feb</p>
+                <p class="mt-2 font-semibold">$1,943 night</p>
+            </div>
+        </div>
+    </section>
+
+    <!--section-4-->
+    <section class="mt-[30px] ml-[30px] mr-[30px]">
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="font-semibold text-[20px] mb-3">Continue exploring beachfront homes</h2>
+            <div class="h-[50px] w-[150px] bg-black font-bold rounded-[10px] text-white flex justify-center items-center">
+                <p>show more</p>
+            </div>
+        </div>
+    </section>
+
+    <!--section-5-->
+    <section class=" bg-slate-50">
+        <div class="mt-[30px] ml-[30px] mr-[30px]">
+            <!--div-1-->
+            <div class="font-semibold text-2xl">
+                <h2 class="pt-[50px]">Inspiration for future getaways</h2>
+            </div>
+            <!--div-2-->
+            <div class="flex gap-[40px] flex-row mt-[25px] mb-[10px] text-[#717171]">
+                <p class="text-black">Popular</p>
+                <p>Arts & culture</p>
+                <p>Outdoor</p>
+                <p>Mountain</p>
+                <p>Beach</p>
+                <p>Unique stays</p>
+                <p>Categories</p>
+                <p>Things to go</p>
+            </div>
+            <div class="h-[1px] w-full bg-[#c4c2c2] flex items-center">
+                <div class="h-[2px] w-[50px] bg-black"></div>
+            </div>
+            <!--div-3-->
+            <div class="flex mt-[35px] justify-between pr-[100px]">
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+                <div class="flex flex-col gap-y-[25px]">
+                    <div><p>Canmore</p><p class="text-[#717171]">Chalet rentals</p></div>
+                    <div><p>Tucson</p><p class="text-[#717171]">Mansion rentals</p></div>
+                    <div><p>Anaheim</p><p class="text-[#717171]">Holiday rentals</p></div>
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-[#c4c2c2] flex items-center mt-[40px]"></div>
+        </div>
+    </section>
+
+    <!--section-6-->
+    <section class="bg-slate-50">
+        <div class="flex justify-between pr-[200px] ml-[30px] mr-[30px] pt-[40px]">
+            <!--div-1-->
+            <div class="flex flex-col gap-y-[9px] text-[15px]">
+                <div>Support</div>
+                <div class="text-[#717171]">Help Centre</div>
+                <div class="text-[#717171]">AirCover</div>
+                <div class="text-[#717171]">Anti-discrimination</div>
+                <div class="text-[#717171]">Disability support</div>
+                <div class="text-[#717171]">Cancellation options</div>
+                <div class="text-[#717171]">Report neighbourhood concern</div>
+            </div>
+            <!--div-2-->
+            <div class="flex flex-col gap-y-[9px] text-[15px]">
+                <p>Support</p>
+                <p class="text-[#717171]">Help Centre</p>
+                <p class="text-[#717171]">AirCover</p>
+                <p class="text-[#717171]">Anti-discrimination</p>
+                <p class="text-[#717171]">Disability support</p>
+                <p class="text-[#717171]">Cancellation options</p>
+                <p class="text-[#717171]">Report neighbourhood concern</p>
+            </div>
+            <!--div-3-->
+            <div class="flex flex-col gap-y-[9px] text-[15px]">
+                <p>Support</p>
+                <p class="text-[#717171]">Help Centre</p>
+                <p class="text-[#717171]">AirCover</p>
+                <p class="text-[#717171]">Anti-discrimination</p>
+                <p class="text-[#717171]">Disability support</p>
+                <p class="text-[#717171]">Cancellation options</p>
+                <p class="text-[#717171]">Report neighbourhood concern</p>
+            </div>
+        </div>
+        <div class="h-[1px] w-full bg-[#c4c2c2] flex items-center mt-[40px]"></div>
+    </section>
+
+    <!--section-7-->
+    <section class="bg-slate-50">
+        <div class="flex justify-between ml-[30px] mr-[30px] pt-[30px] pb-[30px] items-center">
+            <!--div-1-->
+            <div class="flex flex-row items-center gap-2">
+                <img src="./image/copyright.png" alt="" class="h-[15px]">
+                <p>2023 Airbnb,Inc.</p>
+                <p>Privacy</p>
+                <p>.</p>
+                <p>Terms</p>
+                <p>.</p>
+                <p>Sitemap</p>
+                <p>.</p>
+                <p>Company Details</p>
+            </div>
+            <!--div-2-->
+            <div class="flex flex-row items-center gap-[15px]">
+                <img src="./image/internet.png" alt="">
+                <p>English(IN)</p>
+                <p>$ INR</p>
+                <img src="./image/icons8-facebook-30.png" alt="">
+                <img src="./image/icons8-twitterx-30.png" alt="">
+                <img src="./image/icons8-instagram-30.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
